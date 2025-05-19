@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <div className="w-full">
-        <div className="bg-black flex justify-center items-center max-md:px-8">
-          <div className="text-center md:w-min ">
+        <div className="bg-black flex justify-center h-screen items-center max-md:px-8">
+          <div className="text-center md:w-min">
             <h2 className="text-white font-bold text-3xl md:text-6xl md:whitespace-nowrap">
               Kenali Lebih Dekat BelajarYuk!
             </h2>
@@ -54,7 +54,7 @@ function App() {
               depan.
             </p>
             <div className="grid md:grid-cols-2 md:grid-rows-2 gap-y-8 gap-x-28">
-              <div className="bg-[#6a35ff] flex justify-center items-center rounded-xl p-5 gap-5">
+              <div className="bg-[#6a35ff] flex justify-start items-center rounded-xl p-5 gap-5">
                 <div className="rounded-lg bg-black min-w-[75px] min-h-[75px]">
                   <img src="" alt="" />
                 </div>
@@ -63,7 +63,7 @@ function App() {
                 </h4>
               </div>
 
-              <div className="bg-[#6a35ff] flex justify-center items-center rounded-xl p-5 gap-5">
+              <div className="bg-[#6a35ff] flex justify-start items-center rounded-xl p-5 gap-5">
                 <div className="rounded-lg bg-black min-w-[75px] min-h-[75px]">
                   <img src="" alt="" />
                 </div>
@@ -72,7 +72,7 @@ function App() {
                 </h4>
               </div>
 
-              <div className="bg-[#6a35ff] flex justify-center items-center rounded-xl p-5 gap-5">
+              <div className="bg-[#6a35ff] flex justify-start items-center rounded-xl p-5 gap-5">
                 <div className="rounded-lg bg-black min-w-[75px] min-h-[75px]">
                   <img src="" alt="" />
                 </div>
@@ -81,7 +81,7 @@ function App() {
                 </h4>
               </div>
 
-              <div className="bg-[#6a35ff] flex justify-center items-center rounded-xl p-5 gap-5">
+              <div className="bg-[#6a35ff] flex justify-start items-center rounded-xl p-5 gap-5">
                 <div className="rounded-lg bg-black min-w-[75px] min-h-[75px]">
                   <img src="" alt="" />
                 </div>
@@ -95,7 +95,7 @@ function App() {
             <h3 className="text-2xl md:text-5xl font-bold pb-3 md:pb-12 text-center">
               Team Kami
             </h3>
-            <div className="flex overflow-x-auto gap-x-5 snap-x snap-mandatory scroll-smooth">
+            <div className="flex overflow-x-auto gap-x-5 snap-x snap-mandatory scroll-smooth md:justify-between items-center">
               <div className="min-h-[505px] min-w-[347px] bg-black rounded-2xl relative snap-center">
                 <div className="bottom-0 absolute pl-8 pb-9">
                   <h4 className="text-white text-lg md:text-3xl font-bold">
